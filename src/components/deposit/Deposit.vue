@@ -80,7 +80,7 @@
                     </label>
                 </li>
                 <li v-show = "!['susd','susdv2','tbtc','ren','sbtc'].includes(currentPool)">
-                    <input id="depositc" type="checkbox" name="inf-approval" checked v-model='depositc'>
+                    <input id="depositc" type="checkbox" name="depositc" checked v-model='depositc'>
                     <label for="depositc">Deposit wrapped</label>
                 </li>
             </ul>
