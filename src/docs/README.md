@@ -6,6 +6,12 @@
 - susd(DAI, USDC, USDT, sUSD)
 - ren(renBTC, wBTC)
 - sbtc(renBTC, wBTC, sBTC)
+- hbtc(hBTC, wBTC)
+- 3pool(DAI, USDC, USDT)
+- gusd(GUSD, 3pool(DAI, USDC, USDT))
+- husd(HUSD, 3pool(DAI, USDC, USDT))
+- usdk(USDK, 3pool(DAI, USDC, USDT))
+- usdn(USDN, 3pool(DAI, USDC, USDT))
 
 ##### Compound pool
 [Swap address](https://etherscan.io/address/0xA2B47E3D5c44877cca798226B7B8118F9BFb7A56)
@@ -131,7 +137,104 @@ Coins:
 [sBTC](https://etherscan.io/address/0xfE18be6b3Bd88A2D2A7f928d00292E7a9963CfC6)
 
 
+#### hbtc pool
 
+**This is a no-lending pool, undelying coins and coins are the same**
+
+[Swap address](https://etherscan.io/address/0x4ca9b3063ec5866a4b82e437059d2c43d1be596f)
+
+Underlying coins:
+[hBTC](https://etherscan.io/address/0x0316EB71485b0Ab14103307bf65a021042c6d380)
+[wBTC](https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599)
+
+Coins:
+[hBTC](https://etherscan.io/address/0x0316EB71485b0Ab14103307bf65a021042c6d380)
+[wBTC](https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599)
+
+
+#### 3 pool
+
+**This is a no-lending pool, undelying coins and coins are the same**
+
+[Swap address](https://etherscan.io/address/0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7)
+
+Underlying coins:
+[DAI](https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F)
+[USDC](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48)
+[USDT](https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7)
+
+Coins:
+[DAI](https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F)
+[USDC](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48)
+[USDT](https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7)
+
+
+#### gusd pool
+
+**This is a no-lending pool**
+
+[Swap address](https://etherscan.io/address/0x4f062658eaaf2c1ccf8c8e36d6824cdf41167956)
+
+Underlying coins:
+[GUSD](https://etherscan.io/address/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd)
+[Curve.fi DAI/USDC/USDT LP Token](https://etherscan.io/address/0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490)
+
+Coins:
+[GUSD](https://etherscan.io/address/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd)
+[DAI](https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F)
+[USDC](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48)
+[USDT](https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7)
+
+
+### husd pool
+
+**This is a no-lending pool**
+
+[Swap address](https://etherscan.io/address/0x3ef6a01a0f81d6046290f3e2a8c5b843e738e604)
+
+Underlying coins:
+[HUSD](https://etherscan.io/address/0xdf574c24545e5ffecb9a659c229253d4111d87e1)
+[Curve.fi DAI/USDC/USDT LP Token](https://etherscan.io/address/0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490)
+
+Coins:
+[HUSD](https://etherscan.io/address/0xdf574c24545e5ffecb9a659c229253d4111d87e1)
+[DAI](https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F)
+[USDC](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48)
+[USDT](https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7)
+
+
+### usdk pool
+
+**This is a no-lending pool**
+
+[Swap address](https://etherscan.io/address/0x3e01dd8a5e1fb3481f0f589056b428fc308af0fb)
+
+Underlying coins:
+[USDK](https://etherscan.io/address/0x1c48f86ae57291f7686349f12601910bd8d470bb)
+[Curve.fi DAI/USDC/USDT LP Token](https://etherscan.io/address/0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490)
+
+Coins:
+[USDK](https://etherscan.io/address/0x1c48f86ae57291f7686349f12601910bd8d470bb)
+[DAI](https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F)
+[USDC](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48)
+[USDT](https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7)
+
+
+### usdn pool
+
+**This is a no-lending pool**
+
+[Swap address](https://etherscan.io/address/0x0f9cb53ebe405d49a0bbdbd291a65ff571bc83e1)
+
+Underlying coins:
+[USDN](https://etherscan.io/address/0x674C6Ad92Fd080e4004b2312b45f796a192D27a0)
+[Curve.fi DAI/USDC/USDT LP Token](https://etherscan.io/address/0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490)
+
+Coins:
+[USDN](https://etherscan.io/address/0x674C6Ad92Fd080e4004b2312b45f796a192D27a0)
+[DAI](https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F)
+[USDC](https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48)
+[USDT](https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7)
 
 # How to integrate Curve smart contracts
 
@@ -302,7 +405,7 @@ Sum of balances is the liquidity of the pool.
 
 ## Getting data from json files
 
-URL: https://curve.fi/raw-stats/{ **compound, usdt, y, busd, susd, pax, ren2, rens** }-{ **1, 5, 10, 30, 1440** }m.json
+URL: https://curve.fi/raw-stats/{ **compound, usdt, y, busd, susd, pax, ren2, rens, hbtc, 3pool, gusd, husd, usdk, usdn** }-{ **1, 5, 10, 30, 1440** }m.json
 for example https://curve.fi/raw-stats/compound-5m.json
 
 You can get historical data for a pool's state - virtual_price, rates, prices, volumes
