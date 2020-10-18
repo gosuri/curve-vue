@@ -83,6 +83,11 @@ let wallets = [
       "https://mainnet.infura.io/v3/c334bb4b45a444979057f0fb8a0c9d1b",
     //LedgerTransport: TransportWebUSB,
   },
+  {
+    walletName: "lattice",
+    appName: "Curve Finance",
+    rpcUrl: "https://mainnet.infura.io/v3/c334bb4b45a444979057f0fb8a0c9d1b"
+  },
   { walletName: "dapper" },
   { walletName: "coinbase" },
   { walletName: "status" },
